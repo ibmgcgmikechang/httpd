@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Welcome to OpenShift</title>
+  <title>Expert-Labs-SWAT Team</title>
 
 <style>
 
@@ -214,18 +214,18 @@
   <div class="row">
     <section class='col-xs-12 col-sm-6 col-md-6'>
       <section>
-        <h2>Deploying code changes</h2>
-          <p>To change this application, update your code and rebuild/redeploy the image.</p>
+        <h2>IBM Expert Labs SWAT Team</h2>
+          <p>This is Openshift and cloud Pak for Automation Planning site.</p>
       </section>
     </section>
     <section class="col-xs-12 col-sm-6 col-md-6">
-      <h3>For more information and help</h3>
+      <h3>For more Cloud Pak Document information</h3>
       <ul>
-        <li><a href="https://developers.openshift.com">Developer Center</a></li>
-        <li><a href="https://docs.openshift.com">Documentation</a></li>
-        <li><a href="https://www.openshift.com/forums/openshift">OpenShift forums</a></li>
-        <li><a href="http://stackoverflow.com/questions/tagged/openshift">Stack Overflow questions for OpenShift</a></li>
-        <li><a href="http://webchat.freenode.net/?randomnick=1&channels=openshift&uio=d4">IRC channel at #openshift on freenode.net</a></li>
+        <li><a href="https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation">CP4BA</a></li>
+        <li><a href="https://www.ibm.com/docs/en/cloud-paks/cp-integration">CP4I</a></li>
+        <li><a href="https://www.ibm.com/docs/en/cloud-paks/cloud-pak-watson-aiops">CP4WatsonAIOps</a></li>
+        <li><a href="https://www.ibm.com/docs/en/cloud-paks/1.0">IBM Cloud Paks</a></li>
+        <li><a href="https://production-gitops.dev/">Cloud Pak Deployment Guides</a></li>
       </ul>
     </section>
   </div> 
@@ -233,7 +233,19 @@
     <div class="logo"><a href="https://www.openshift.com/"></a></div>
   </footer>
 </section>
-
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "2bdd67ff-a688-4d13-b275-17468f5fefae", // The ID of this integration.
+    region: "us-south", // The region your integration is hosted in.
+    serviceInstanceID: "188e4e9b-cddf-4feb-b877-c9740153de94", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
 
 </body>
 </html>
